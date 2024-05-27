@@ -1,4 +1,4 @@
-let long = ["Usman", "Malik"];
+let long = ["Usman", "Malik", "Farhan"];
 let length = long.length;
 console.log(length);
 
@@ -58,3 +58,6 @@ console.log(toSplice);
 let slicing = ["slice", "splice", "slicing"];
 let  slice = slicing.slice(2);
 console.log(slice);
+
+let concatination = slicing.concat(toSp).concat(flatting).concat(splicing.concating);
+console.log(concatination);
